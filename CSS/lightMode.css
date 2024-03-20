@@ -1,0 +1,69 @@
+.light.content{
+    background-color: #f1f1f1;
+    color: var(--dBlue);
+}
+
+.light header nav a {
+    color: var(--white) !important;
+    
+}
+
+.light header{
+    background-color: var(--mBlue);
+}
+
+.light header .felipeWebDev a {
+    color: var(--white);
+   
+}
+
+.light .lightLogo {
+    display: flex;
+    max-height: auto;
+    max-width: 15rem;
+}
+
+.light .logo{
+    display: none;
+}
+
+
+
+.light .button1 {
+    background-color: #00BFFF;
+}
+
+.light .button1:hover{
+    background-color: var(--dBlue);
+}
+
+
+.light .blurLight{
+    display: flex;
+    position:absolute;
+    z-index: -1;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem; 
+    margin-right: 4rem;
+    
+}
+.light .blur{
+    display: none;
+}
+
+
+
+.light .skill{
+    background-color: var(--mBlue);
+    color: var(--white);
+}
+
+
+
+.light .textButton{
+    color: var(--white);
+    background-color: var(--mBlue);
+}
