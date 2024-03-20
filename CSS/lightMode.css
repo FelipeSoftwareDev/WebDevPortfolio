@@ -27,8 +27,6 @@
     display: none;
 }
 
-
-
 .light .button1 {
     background-color: #00BFFF;
 }
@@ -36,7 +34,6 @@
 .light .button1:hover{
     background-color: var(--dBlue);
 }
-
 
 .light .blurLight{
     display: flex;
@@ -50,20 +47,26 @@
     margin-right: 4rem;
     
 }
+
 .light .blur{
     display: none;
 }
-
-
 
 .light .skill{
     background-color: var(--mBlue);
     color: var(--white);
 }
 
-
-
 .light .textButton{
     color: var(--white);
     background-color: var(--mBlue);
+}
+
+.light .professionalContacts{
+    background-color: var(--mBlue);
+    color: var(--white);
+}
+
+.light .copyright a{
+    color: var(--dBlue);
 }
