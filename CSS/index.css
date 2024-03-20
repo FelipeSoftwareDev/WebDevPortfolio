@@ -1,0 +1,516 @@
+:root {
+  --dYellow: #FCC90B;
+  --dOrange: #ff7700;
+  --dGray: #222;
+  --dBlue: #009dcf;
+  --lGray: #404040;
+  --white: #fff;
+  --mBlue: #00BFFF;
+  --lBlue: #00BFFF oppacity: 20%;
+}
+
+*{
+    margin-left: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.content{
+    background-color: #222;
+    color:var(--dYellow);
+    font-size: .5rem;
+    max-width: 100%;
+    transition: background 0.4s linear
+}
+h2{
+    font-size: .65rem;
+}
+.light.content{
+    background-color: #d1d1d1;
+    color: #000;
+}
+
+header{
+    padding: .2rem !important;
+    font-family: "Inter", sans-serif;  
+}
+
+header nav a{
+    color: var(--dYellow) !important;
+    text-decoration: none !important;
+    font-weight: 800;
+    font-size: .6rem;
+    margin-right: .3rem; 
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+}
+
+.light header nav a {
+    color: var(--white) !important;
+    
+}
+
+.light header{
+    background-color: var(--mBlue);
+}
+
+header .felipeWebDev a{
+    font-size: .8rem;
+    font-weight: 800;
+    color: var(--dYellow);
+    text-decoration: none;
+    padding: 0.5rem !important;
+    padding-left: 0.2rem !important;
+    margin-left: .7rem;
+}
+
+.light header .felipeWebDev a {
+    color: var(--white);
+   
+}
+
+
+.themeChanger {
+    font-size: .4rem;
+    margin-right: 3.5rem;
+    
+}
+
+
+.slider {
+    background-color:var(--white);
+    border-radius: .7rem;
+    width: 1.4rem;
+    height: .7rem;
+    border: none;
+    cursor:pointer;
+    position: relative;
+    transition: all 350ms ease-in-out;
+}
+
+.switcher {
+    width: .48rem;
+    height: .48rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #404040;
+    /*  Removeremos o pointer-events para que ele possa usar o evento de clique da div pai, ao invés de
+    ser separado do resto do switch/slider */
+    pointer-events: none;
+    position: absolute;
+    top: .11rem;
+    left: .14rem;
+    transition: all 350ms ease-in-out;
+}
+
+
+.toggleInput {
+    display: none;
+}
+
+/* Esse ~ é um general simbling selector, vai selecionar o "parente" mais próximo, sem ser necessáriamente o filho.*/
+.toggleInput:checked ~ .slider{
+    background: var(--lGray);
+}
+.toggleInput:checked ~ .slider > .switcher{
+    background-color: var(--white);
+    left: .78rem;
+}
+
+
+.themeChanger p{
+    margin-top: .27rem;
+    margin-right: .8rem;
+}
+
+.lighTheme{
+    background-color: #FFFFFF;
+}
+
+.navigation{
+    margin-right: 2.2rem;
+    
+}
+
+
+
+.presentation{
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+    margin-right: 2.5rem;
+    
+}
+.profile{
+    border-radius: 100%;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-right: .5rem;
+}
+
+.lightLogo{
+    display: none;
+}
+
+.light .lightLogo {
+    display: flex;
+    max-height: auto;
+    max-width: 15rem;
+}
+
+.light .logo{
+    display: none;
+}
+
+
+.logo {
+   max-height: auto;
+   max-width: 15rem;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+}
+.description{
+    position: relative;
+    
+    margin-bottom: 2rem;
+}
+.descriptionText{
+    margin-left: 4rem;
+    margin-right: 12.8rem;
+
+}
+
+#start{
+    align-items: center;
+    margin: 1rem, 1rem;
+}
+
+
+
+.button1 {
+    font-size: .4rem;
+    background-color: var(--dYellow);
+    padding: 1rem .3rem;
+    margin-left: 12rem;
+    border-radius: 100%;
+    color: #FFFFFF !important;
+    position: absolute;
+    margin-bottom: 2rem;
+    cursor:pointer;
+    text-decoration: none !important;
+    margin-right: 4rem;
+    transition: background-color 800ms ease;
+}
+
+.button1:hover {
+    background-color: var(--dOrange);
+    
+}
+
+.light .button1 {
+    background-color: #00BFFF;
+}
+
+.light .button1:hover{
+    background-color: var(--dBlue);
+}
+
+
+.blur{
+    position:absolute;
+    z-index: -1;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem; 
+    margin-right: 4rem;
+
+}
+
+
+.blurLight{
+    display: none;
+}
+
+.light .blurLight{
+    display: flex;
+    position:absolute;
+    z-index: -1;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem; 
+    margin-right: 4rem;
+    
+}
+.light .blur{
+    display: none;
+}
+
+
+
+
+
+.technologies{
+    margin-top: 3rem;
+    display:flex;
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    
+}
+
+.technologiesText{
+    
+    margin-right: 0;
+    
+}
+.technologiesText h2{
+    font-size: .65rem;
+}
+
+
+
+.techLogo {
+    border-radius: 10px;
+    margin-right:.4rem;
+    max-width: 100%;
+    padding: 4px;
+
+}
+.cssLogo{
+    margin-left: -.5rem;
+    padding: .4rem;
+    
+}
+
+
+.bootstrapLogo{
+    
+   
+    max-width: 100%;
+    padding: .2rem;
+    margin-left: .23rem;
+    
+}
+
+
+
+.projects{
+    justify-content: center;
+    max-width: 80%;
+    margin-left: 4.5rem;
+
+}
+
+#projectsCarousel {
+    
+    max-width:100%;
+    max-height: auto;
+    margin-right: 4rem;
+}
+
+.carousel-indicators{
+    margin-bottom: 0;
+    
+}
+
+.carousel-control-next-icon{
+    max-width: 15px !important;
+}
+
+.carousel-control-prev-icon{
+    max-width: 15px !important;
+}
+
+.carousel-caption{
+    margin-bottom: 1.6rem;
+}
+
+.carousel-caption h5{
+    color: black;
+    font-size: .65rem;
+    border-radius: 1rem;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .1rem;
+    background-color: #404040c9;
+}
+.projectText{
+    font-size: .5rem;
+    display: none !important;
+  
+}
+
+
+.projects img{
+    border-radius: .3rem;
+    opacity: 80%;
+}
+
+.skills{
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+.skill{
+    border-radius: .8rem;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    background-color: #FFC700;
+    color: #222;
+    width: 7rem;
+    height: 8.5rem;
+}
+
+.svg1{
+    position: relative;
+    margin-top: .6rem;
+    left: 1.85rem;
+    z-index: 2; 
+}
+.svg2{
+    position: relative;
+    margin-top: .65rem;
+    left: 2rem;
+    z-index: 2; 
+}
+.svg3{
+    position: relative;
+    margin-top: .65rem;
+    left: 2.05rem;
+    z-index: 2; 
+}
+.whiteCircle{
+    position: absolute;
+    background-color: #FFFFFF;
+    width:2.1rem;
+    height: 2.1rem;
+    border-radius: 3rem;
+    z-index: 1;
+    margin-left: 1.66rem;
+    margin-top: .3rem;
+}
+.skillName{
+    margin-left: 1.1rem;
+    font-weight: bolder;
+    font-size: .5rem;
+    margin-bottom: 0 !important;
+}
+.skillDescription{
+   margin-left: .4rem !important;
+   margin-right: .4rem !important;
+   margin-top: 0.3rem !important;
+   margin-bottom: 0 !important;
+   font-size: .435rem;
+}
+
+.softSkills{
+    margin-top: .7rem;
+    margin-left: 1.4rem;
+}
+.languages{
+    margin-top: .57rem;
+    margin-left: 1.6rem;
+}
+
+.whoAmI{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.textButton{
+    
+}
+
+.textButton{
+    color: var(--white);
+    background-color: #F5B819;
+    border-radius: .2rem;
+    padding: .6rem;
+    padding-top: .6rem;
+    width: 6rem;
+    max-height: 2rem;
+    cursor: pointer !important;
+    position: absolute
+}
+
+
+.paragraph{
+
+    transition: .3s;
+    background-color: var(--dGray);
+    border-radius: 1rem;
+    border-style: solid 1px;
+    border-color: var(--dYellow);
+    color: var(--dYellow);
+    overflow: hidden;
+    opacity: 0;
+    
+}
+
+
+.textMask.active .paragraph {
+    height: fit-content;
+    opacity: 1;
+    padding: 1.5rem;
+    display: flex;
+}
+
+.arrow{
+    position: relative;
+    left: 4.8rem;
+    top: .5rem;
+}
+.professionalContacts{
+ background-color: var(--dYellow);
+ color: #000;
+ padding: .5rem;
+ border-radius: .5rem;
+ max-width: 10rem;
+}
+
+.professionalContacts h2{
+    font-size: .65rem;
+}
+
+.contact a{
+    text-decoration: none !important;
+    color: var(--dGray);
+  
+}
+
+.ig{
+    margin-left: 3rem;
+}
+
+
+.copyright{
+    background-color: #000;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: var(--white);
+    
+}
+
+.copyright a{
+    text-decoration: none !important;
+    color: var(--dYellow);
+    margin-left: 3px;
+   
+}
+
+@media  screen and (min-width: 576px){ 
+    .projectText{
+        display: block !important
+    }
+}
