@@ -31,8 +31,13 @@ toggleWrapper.addEventListener('change', () => {
 
 
 const textMask = document.getElementsByClassName('textMask');
-  textMask.addEventListener('click', function(){
-    textMask.classList.toggle('active');
-  });
+  for (let i = 0; index < textMask.length; i++) {
+    textMask[i].addEventListener('click', function(){
+      textMask.classList.toggle('active');
+    });
+  }
+  const textMasks = document.getElementsByClassName('textMask');
+
+ 
 
 
