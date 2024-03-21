@@ -411,8 +411,10 @@ header .felipeWebDev a{
     color: var(--dYellow);
     overflow: hidden;
     opacity: 0;
+
     max-width: 8rem;
     margin-top: 6rem;
+
     
 }
 
@@ -422,7 +424,10 @@ header .felipeWebDev a{
     opacity: 1;
     padding: .5rem;
     display: flex;
+
     justify-content: flex-start;
+
+
 }
 
 .arrow{

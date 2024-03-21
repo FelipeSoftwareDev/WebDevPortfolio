@@ -30,6 +30,7 @@ toggleWrapper.addEventListener('change', () => {
 })
 
 
+
 //const textMask = document.getElementsByClassName('textMask');
  // textMask.addEventListener('click', function revealParagraph(){
   //  textMask.classList.toggle('active');
