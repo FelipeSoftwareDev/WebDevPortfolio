@@ -2,11 +2,12 @@
   --dYellow: #FCC90B;
   --dOrange: #ff7700;
   --dGray: #222;
-  --dBlue: #009dcf;
   --lGray: #404040;
+  --mGray: #D9D9D9;
+  --dBlue: #009dcf;
   --white: #fff;
   --mBlue: #00BFFF;
-  --lBlue: #00BFFF oppacity: 20%;
+  --whiteGray: #f1f1f1;
 }
 
 *{
@@ -25,10 +26,7 @@
 h2{
     font-size: .65rem;
 }
-.light.content{
-    background-color: #f1f1f1;
-    color: var(--dBlue);
-}
+
 
 header{
     padding: .2rem !important;
@@ -45,14 +43,9 @@ header nav a{
     padding-bottom: 0.3rem !important;
 }
 
-.light header nav a {
-    color: var(--white) !important;
-    
-}
 
-.light header{
-    background-color: var(--mBlue);
-}
+
+
 
 header .felipeWebDev a{
     font-size: .8rem;
@@ -64,10 +57,7 @@ header .felipeWebDev a{
     margin-left: .7rem;
 }
 
-.light header .felipeWebDev a {
-    color: var(--white);
-   
-}
+
 
 
 .themeChanger {
@@ -123,9 +113,7 @@ header .felipeWebDev a{
     margin-right: .8rem;
 }
 
-.lighTheme{
-    background-color: #FFFFFF;
-}
+
 
 .navigation{
     margin-right: 2.2rem;
@@ -151,15 +139,9 @@ header .felipeWebDev a{
     display: none;
 }
 
-.light .lightLogo {
-    display: flex;
-    max-height: auto;
-    max-width: 15rem;
-}
 
-.light .logo{
-    display: none;
-}
+
+
 
 
 .logo {
@@ -209,15 +191,6 @@ header .felipeWebDev a{
     
 }
 
-.light .button1 {
-    background-color: #00BFFF;
-}
-
-.light .button1:hover{
-    background-color: var(--dBlue);
-}
-
-
 .blur{
     position:absolute;
     z-index: -1;
@@ -230,30 +203,9 @@ header .felipeWebDev a{
 
 }
 
-
 .blurLight{
     display: none;
 }
-
-.light .blurLight{
-    display: flex;
-    position:absolute;
-    z-index: -1;
-    object-fit: cover;
-    margin-top: 2rem;
-    margin-left: 12rem;
-    margin-bottom: 2rem;
-    padding-bottom: 2rem; 
-    margin-right: 4rem;
-    
-}
-.light .blur{
-    display: none;
-}
-
-
-
-
 
 .technologies{
     margin-top: 3rem;
@@ -269,11 +221,10 @@ header .felipeWebDev a{
     margin-right: 0;
     
 }
+
 .technologiesText h2{
     font-size: .65rem;
 }
-
-
 
 .techLogo {
     border-radius: 10px;
@@ -282,12 +233,12 @@ header .felipeWebDev a{
     padding: 4px;
 
 }
+
 .cssLogo{
     margin-left: -.5rem;
     padding: .4rem;
     
 }
-
 
 .bootstrapLogo{
     
@@ -297,8 +248,6 @@ header .felipeWebDev a{
     margin-left: .23rem;
     
 }
-
-
 
 .projects{
     justify-content: center;
@@ -310,10 +259,11 @@ header .felipeWebDev a{
 }
 
 #projectsCarousel {
-    
     max-width:100%;
     max-height: auto;
     margin-right: 4rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
 }
 
 .carousel-indicators{
@@ -343,12 +293,12 @@ header .felipeWebDev a{
     padding: .1rem;
     background-color: #404040c9;
 }
+
 .projectText{
     font-size: .5rem;
     display: none !important;
   
 }
-
 
 .projects img{
     border-radius: .3rem;
@@ -371,29 +321,27 @@ header .felipeWebDev a{
     height: 8.5rem;
 }
 
-.light .skill{
-    background-color: var(--mBlue);
-    color: var(--white);
-}
-
 .svg1{
     position: relative;
     margin-top: .6rem;
     left: 1.85rem;
     z-index: 2; 
 }
+
 .svg2{
     position: relative;
     margin-top: .65rem;
     left: 2rem;
     z-index: 2; 
 }
+
 .svg3{
     position: relative;
     margin-top: .65rem;
     left: 2.05rem;
     z-index: 2; 
 }
+
 .whiteCircle{
     position: absolute;
     background-color: #FFFFFF;
@@ -404,12 +352,14 @@ header .felipeWebDev a{
     margin-left: 1.66rem;
     margin-top: .3rem;
 }
+
 .skillName{
     margin-left: 1.1rem;
     font-weight: bolder;
     font-size: .5rem;
     margin-bottom: 0 !important;
 }
+
 .skillDescription{
    margin-left: .4rem !important;
    margin-right: .4rem !important;
@@ -422,18 +372,17 @@ header .felipeWebDev a{
     margin-top: .7rem;
     margin-left: 1.4rem;
 }
+
 .languages{
     margin-top: .57rem;
     margin-left: 1.6rem;
 }
 
 .whoAmI{
-    margin-top: 1rem;
+    margin-top: 5rem;
     margin-left: 3.5rem;
     margin-right: 3.5rem;
 }
-
-
 
 .textButton{
     color: var(--white);
@@ -444,54 +393,65 @@ header .felipeWebDev a{
     width: 6rem;
     max-height: 2rem;
     cursor: pointer !important;
-    position: absolute
+    position: absolute;
+    z-index: 2;
 }
-
-.light .textButton{
-    color: var(--white);
-    background-color: var(--mBlue);
-}
-
 
 .paragraph{
 
     transition: .3s;
     background-color: var(--dGray);
     border-radius: 1rem;
-    border-style: solid 1px;
+    border: 1px solid;
     border-color: var(--dYellow);
     color: var(--dYellow);
     overflow: hidden;
     opacity: 0;
-    left: -2rem;
-    
+    left: -4rem;
+    padding: 1rem !important;
+     font-size: 1px;
 }
 
+.textMask{
+    left: -1.8rem;
+    bottom: -2.5rem;
+    margin-bottom: 7rem;
+}
+
+.textMask.active {
+    max-width: 8rem;
+}
 
 .textMask.active .paragraph {
     height: fit-content;
     opacity: 1;
-    padding: 1.5rem;
-    display: flex;
-    margin-top: 3rem;
+    padding: 1rem;
+    position: relative;
+    margin-top: 0;
+    margin-left: 3.5rem;
+    width: 8.5rem;  
+    margin-bottom: 3.5rem;
+    margin-top: .5rem;
+    margin-right: 1rem !important;
+    font-size: .465rem;
+
 }
 
 .arrow{
     position: relative;
     left: 4.8rem;
     top: .5rem;
+    z-index: 3;
 }
+
 .professionalContacts{
  background-color: var(--dYellow);
  color: #000;
  padding: .5rem;
  border-radius: .5rem;
  max-width: 10rem;
-}
-
-.light .professionalContacts{
-    background-color: var(--mBlue);
-    color: var(--white);
+ top: -2.6rem;
+ margin-left: 1rem;
 }
 
 .professionalContacts h2{
@@ -503,15 +463,9 @@ header .felipeWebDev a{
     color: var(--dGray);
 }
 
-.light .contact a{
-    color: var(--white);
-}
-
-
 .ig{
     margin-left: 3rem;
 }
-
 
 .copyright{
     background-color: #000;
@@ -529,12 +483,10 @@ header .felipeWebDev a{
     margin-left: 3px;
 }
 
-
-.light .copyright a{
-    color: var(--dBlue);
-}
-
 .contactCall{
+
+    margin-left: 1.6rem;
+    margin-top: 4rem;
     color: #000;
 }
 
@@ -542,6 +494,9 @@ header .felipeWebDev a{
     font-size: .8rem;
 }
 
+.form-label{
+    color: #000;
+}
 
 #contactForm{
     max-width: 100%;
@@ -553,10 +508,15 @@ header .felipeWebDev a{
 .form-control{
     height: 1rem;
     width: 9rem;
+    font-size: .6rem;
 }
 
-@media  screen and (min-width: 576px){ 
-    .projectText{
-        display: block !important
-    }
+.formSpace{
+    margin-top: 2rem;
+    margin-left: 1.4rem;
+}
+
+.btn{
+    background-color: var(--dOrange);
+    border-style: none;
 }
