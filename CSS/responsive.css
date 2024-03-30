@@ -1,0 +1,250 @@
+@media  screen and (min-width: 574px){ 
+    .content{
+        font-size: .7rem;
+    }
+    h2{
+        font-size: .85rem !important;
+    }
+    
+    header{
+        background-color: black;
+    }
+    
+    .light header{
+        background-color: #f1f1f1;
+        
+    }
+    
+    .felipeWebDev{
+        margin-left: 1.6rem;
+        margin-right: 4.5rem;
+    }
+    
+    header nav a{
+        margin-right: .3rem;
+        margin-left: 1.3rem;
+    }
+    
+    .themeChanger{
+        font-size: .6rem;
+    }
+    
+    .slider{
+        width: 1.6rem;
+        height: .9rem;
+    }
+    
+    .switcher{
+        width: .5rem;
+        height: .5rem;
+        top: .2rem;
+    }
+    .descriptionText{
+        margin-left: 4.2rem;
+        margin-right: 20rem;
+    }
+    .button1 {
+        margin-left: 19rem;
+        font-size: .6rem;
+        padding: 1.5rem .5rem;
+    }
+    .blur{
+        margin-left: 19rem;
+        width: 12rem;
+    }
+    .light .blurLight{
+        margin-left: 19rem !important;
+        width: 12rem;
+    }
+    .techonologies{
+        margin-left: 4.2rem;
+        margin-top: 4.7rem;
+    }
+    .technologiesText{
+        width: 22rem;
+        margin-right: 3rem;
+    }
+    .projects{
+        max-width: 100%;
+        margin-bottom: 3.2rem;
+        margin-top: 4rem;
+    }
+
+    .carousel-caption h5{
+    margin-bottom: 2rem;
+    }
+
+    .projectText{
+        display: flex !important;
+        background-color: #404040c9;
+        border-radius: .1rem;
+        justify-content: center !important;
+        max-width: 100%;
+        padding: .3rem .1rem !important;
+    }
+
+    .skills{
+        margin-top: 8rem;
+        margin-left: 4.2rem;
+        margin-right: 4.2rem
+    }
+
+    .skill{
+        margin-left: 1.5rem !important;
+        margin-right: 0;
+        width: 8.3rem;
+        height: 9.7rem;
+    }
+
+    .whiteCircle{
+        margin-left: 2.65rem !important;
+    }
+
+    .svg1{
+        left: 2.85rem;
+    }
+    .svg2{
+        left: 3rem;
+    }
+    .svg3{
+        left: 3.05rem;
+    }
+
+    .skillName{
+        margin-left: 1.5rem;
+        font-size: .7rem;
+
+    }
+
+    .skillDescription{
+        margin-left: .6rem !important;
+        margin-right: .6rem !important;
+        font-size: .59rem;
+    }
+
+    .softSkills{
+        margin-left: 2rem;
+    }
+
+    .languages{
+        margin-left: 2.4rem;
+    }
+
+    .whoAmI{
+        margin-left: 7rem;
+        margin-right: 6rem;
+        margin-top: 6rem;
+    }
+
+    .textButton{
+        width: 7rem;
+    }
+    
+    .textMask.active .paragraph{
+        font-size: .665rem;
+        width: 10rem;
+    }
+
+    .arrow{
+        left: 5.8rem;
+        top:.6rem;
+    }
+
+    .professionalContacts {
+        max-width: 15rem;
+    }
+
+    .professionalContacts h2{
+        font-size: .85rem;
+    }
+}
+
+
+@media  screen and (min-width: 635px){
+    .technologiesImg{
+        margin-left: 2rem;
+        margin-right: 3rem;
+    }
+}
+
+
+@media  screen and (min-width: 768px){
+    header .felipeWebDev a{
+        margin-left: 2rem;
+        margin-right: 6rem;
+    }
+    header nav a{
+        margin-left: 2rem;
+    }
+
+    .themeChanger{
+        margin-top: 1rem;
+    }
+    .themeChanger p{
+        margin-right: 2.5rem;
+    }
+
+    .profile{
+        width: 5rem;
+        margin-left: 3rem;
+    }
+
+    .logo{
+        width: 7rem !important;
+        margin-left: 2rem !important;
+    }
+
+    .light .lightLogo{
+        width: 7rem !important;
+        margin-left: 2rem !important;
+    }
+
+    .descriptionText{
+        margin-left: 7rem;
+        margin-right: 28rem;
+    }
+
+    .technologies{
+        margin-left: 3.3rem;
+        margin-top: 9rem !important;
+    }
+
+    .technologiesText{
+        width: 15rem;
+        margin-right: 0;
+        margin-left: 2rem;
+    }
+
+    .carousel-control-next-icon{
+        margin-top: 40rem;
+    }
+    .carousel-control-prev-icon{
+        margin-top: 40rem;
+    }
+
+    .skills{
+        margin-left: 5rem !important;
+    }
+    .skill{
+        margin-left: 3rem !important;
+        margin-right: 2rem;
+        width: 8.5rem;
+        height: 10.5rem;
+    }
+    .languages p{
+        margin-left: 2rem !important;
+    }
+
+
+    .contactCall {
+        margin-left: 5.5rem;
+    }
+
+    .formSpace{
+        margin-left: 8rem;
+    }
+    
+
+}
+
+
