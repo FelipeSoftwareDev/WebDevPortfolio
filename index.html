@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
     <link rel="stylesheet" href="CSS/lightMode.css">
 
 </head> 
@@ -83,10 +84,10 @@
         
     </div>    
         <div class="p-2 technologiesImg">
-            <img class="techLogo" src="img/social_html5_1970.png" width="50px" height="auto">
-            <img  class="cssLogo" src= "img/294692_css3_icon (1).svg" width="71px" height="auto">
-            <img class="techLogo" src="img/js.png" width="50px" height="auto">
-        <img class="bootstrapLogo" src="img/svgBootstrap-logo.svg" width="49px" height="auto">
+            <img class="techLogo" src="img/social_html5_1970.png" width="45px" height="auto">
+            <img  class="cssLogo" src= "img/294692_css3_icon (1).svg" width="63.9px" height="auto">
+            <img class="techLogo" src="img/js.png" width="45px" height="auto">
+        <img class="bootstrapLogo" src="img/svgBootstrap-logo.svg" width="44.1px" height="auto">
     </div>
 </div>
 </div>
@@ -100,24 +101,25 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
+            <a href="https://github.com/FelipeSoftwareDev/petlife" target="_blank">
             <img class="d-block w-100" src="img/petlife980x377.webp" alt="First slide">
-            <div class="carousel-caption">
+          </a>
+            <div class="carousel-caption justify-content-center align-items-center">
               <h5>Projetos</h5>
               <p class="projectText">Petlife foi um projeto feito durante a trilha do desenvolvedor OneBitCode</p>
             </div>
           </div>
             <div class="carousel-item">
+              <a href="https://github.com/FelipeSoftwareDev/PokeDex/tree/main" target="_blank">
             <img class="d-block w-100" src="img/pokedex980x377.webp" alt="Second slide">
+          </a>
             <div class="carousel-caption">
               <h5>Projetos</h5>
               <p class="projectText">Projeto de uma Pokedex que consome os dados de uma API feito em aula com a DIO</p>
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="img/emDesenvolvimento....webp" alt="Third slide">
-            <div class="carousel-caption">
-              <p class="projectText">Estou trabalhando duro para trazer mais projetos!</p>
-              
+            <img class="d-block w-100" src="img/emDesenvolvimento....webp" alt="Third slide">    
           </div>
           </div>
         </div>
@@ -162,8 +164,7 @@
             
 
             <p class="skillName languages"> Idiomas </p>
-            <p class="skillDescription">Inglês - Avançado<br>
-              Francês - Iniciante <br>
+            <p class="skillDescription languages">Inglês - Avançado<br>
               Português - Nativo
             
              </p>
@@ -174,11 +175,11 @@
     <div class="col-sm-6 textMask">
     <p class ="textButton">  Quem sou eu </p>
     <img class="arrow" src="img/arrowDown.svg" width="10rem" height="auto" alt="arrow-down">
-    <p class="paragraph">Sou formado em análise e desenvolvimento de sistemas pela Uninassau, desenvolvo interfaces mordernas e responsivas, trazendo um acabamento profissional para seu site.
-      </p>
-    <p class="paragraph">
+    <p class="paragraph">Sou formado em análise e desenvolvimento de sistemas pela Uninassau, desenvolvo interfaces mordernas e responsivas, trazendo um acabamento profissional para seu site.<br>
+      <br>
       Meu objetivo como desenvolvedor é ajudar as empresas a se tornarem digitais, aprimorar a captação de clientes e mirar em um público alvo que não era explorado, superando a barreira geográfica.  
-</p>
+      </p>
+    
 </div>
 
     <div class="col-sm-6 d-flex row align-items-center justify-content-center professionalContacts">
@@ -186,12 +187,12 @@
        <div class="justify-content-center align-items-center contact">
        
        <a href="https://api.whatsapp.com/send?phone=+5581998772855&text=Ol%C3%A1%21%0AGostaria+de+saber+mais+sobre+seus+servi%C3%A7os%2C+como+desenvolvedor.%F0%9F%92%BB%EF%B8%8F"
-        class="col-sm-6 p-3">
+       target="_blank" class="col-sm-6 p-3">
         Celular: (81)99877-2855</a>
-       <a href="mailto:felipesantacruz.ads@gmail.com p-3" class="col-sm-6">
+       <a href="mailto:felipesantacruz.ads@gmail.com p-3" target="_blank" class="col-sm-6">
         felipesantacruz.ads@gmail.com</a>
-      <a href="https://www.linkedin.com/in/felipe-de-santa-cruz/" class="col-sm-6 p-3">Linkedin: Felipe de Santa Cruz</a>
-      <a href="https://www.instagram.com/jornadawebdev/" class="col-sm-6 p-3">Instagram Profissional</a>
+      <a href="https://www.linkedin.com/in/felipe-de-santa-cruz/" target="_blank" class="col-sm-6 p-3">Linkedin: Felipe de Santa Cruz</a>
+      <a href="https://www.instagram.com/jornadawebdev/" target="_blank" class="col-sm-6 p-3">Instagram: @jornadawebdev</a>
       </div>
        
 
@@ -207,23 +208,23 @@
 
 <div class="contactCall">
   <h4>Não conseguiu contato? </h4>
-  <p>Deixe seu e-mail para retorno.</p>
+  <p class="text-center">Deixe seu contato para que eu possa retornar.</p>
 </div>
 
-  <form>
+  <form class="formSpace">
     <div class="mb-3">
-      <label for="inputEmail" class="form-label">Email address</label>
+      <label for="inputEmail" class="form-label">Endereço de e-mail</label>
       <input type="email" class="form-control col-sm-6" id="exampleInputEmail1" aria-describedby="emailHelp">
       <div id="emailHelp" class="form-text">Insira um e-mail válido para contato.</div>
     </div>
     <div class="mb-3">
       <label for="InputName" class="form-label">Nome</label>
-      <input type="password" class="form-control" id="exampleInputName">
+      <input type="string" class="form-control" id="exampleInputName">
       <div id="name" class="form-text">O primeiro nome é suficiente.</div>
     </div>
     <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      <input type="checkbox" class="form-check-input" id="checkAgree">
+      <label class="form-check-label" for="checkAgree">Concordo em ser contactado.</label>
     </div>
     <button type="submit" class="btn btn-primary">Enviar</button>
   </form>
