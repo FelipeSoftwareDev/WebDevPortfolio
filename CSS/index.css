@@ -17,7 +17,7 @@
 }
 
 .content{
-    background-color: #222;
+    background-color: var(--dGray);
     color:var(--dYellow);
     font-size: .5rem;
     max-width: 100%;
@@ -113,15 +113,6 @@ header .felipeWebDev a{
     margin-right: .8rem;
 }
 
-
-
-.navigation{
-    margin-right: 2.2rem;
-    
-}
-
-
-
 .presentation{
     margin-left: 2.5rem;
     margin-bottom: 2rem;
@@ -130,23 +121,20 @@ header .felipeWebDev a{
 }
 .profile{
     border-radius: 100%;
-    margin-top: 1.5rem;
     margin-left: 2rem;
     margin-right: .5rem;
+ 
 }
 
 .lightLogo{
     display: none;
 }
 
-
-
-
-
-
 .logo {
    max-height: auto;
    max-width: 15rem;
+   margin-top: 3rem;
+   margin-bottom: 2.5rem;
 }
 
 .description{
@@ -208,7 +196,7 @@ header .felipeWebDev a{
 }
 
 .technologies{
-    margin-top: 3rem;
+    margin-top: 4.5rem;
     display:flex;
     align-items: center;
     margin-left: 4rem;
@@ -217,7 +205,7 @@ header .felipeWebDev a{
 }
 
 .technologiesText{
-    
+    width: 15rem;
     margin-right: 0;
     
 }
@@ -235,7 +223,7 @@ header .felipeWebDev a{
 }
 
 .cssLogo{
-    margin-left: -.5rem;
+    margin-left: -.2rem;
     padding: .4rem;
     
 }
@@ -266,6 +254,10 @@ header .felipeWebDev a{
     margin-top: 3rem;
 }
 
+.carousel-item img{
+    filter: brightness(80%) contrast(120%);
+}
+
 .carousel-indicators{
     margin-bottom: 0;
     
@@ -273,10 +265,14 @@ header .felipeWebDev a{
 
 .carousel-control-next-icon{
     max-width: 15px !important;
+    margin-top: 32rem;
+    margin-right: 3.8rem;
 }
 
 .carousel-control-prev-icon{
-    max-width: 15px !important;
+    width: 15px !important;
+    margin-top: 32rem;
+    margin-left: 4.5rem;
 }
 
 .carousel-caption{
@@ -285,19 +281,23 @@ header .felipeWebDev a{
 
 .carousel-caption h5{
     color: black;
-    font-size: .65rem;
+    font-size: .66rem;
     border-radius: 1rem;
     max-width: 30%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: .95rem;
     padding: .1rem;
     background-color: #404040c9;
 }
 
 .projectText{
-    font-size: .5rem;
+    font-size: .45rem;
     display: none !important;
-  
+    padding: .3rem .1rem !important;
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+    margin-top: 3.3rem;
 }
 
 .projects img{
@@ -474,6 +474,7 @@ header .felipeWebDev a{
     bottom: 0;
     width: 100%;
     color: var(--white);
+    z-index: 1;
     
 }
 
