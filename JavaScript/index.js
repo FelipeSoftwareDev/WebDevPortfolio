@@ -31,12 +31,14 @@ toggleWrapper.addEventListener('change', () => {
 
 
 const textMask = document.getElementsByClassName('textMask');
-  for (let i = 0; index < textMask.length; i++) {
+  for (let i = 0; i < textMask.length; i++) {
     textMask[i].addEventListener('click', function(){
-      textMask.classList.toggle('active');
+      this.classList.toggle('active');
     });
   }
-  const textMasks = document.getElementsByClassName('textMask');
+
+  
+  
 
  
 
