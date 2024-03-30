@@ -30,16 +30,17 @@ toggleWrapper.addEventListener('change', () => {
 })
 
 
-const textMask = document.getElementsByClassName('textMask');
-  for (let i = 0; i < textMask.length; i++) {
-    textMask[i].addEventListener('click', function(){
-      this.classList.toggle('active');
+
+//const textMask = document.getElementsByClassName('textMask');
+ // textMask.addEventListener('click', function revealParagraph(){
+  //  textMask.classList.toggle('active');
+ // });
+
+  const textMasks = document.getElementsByClassName('textMask');
+
+  // Iterando sobre cada elemento com a classe 'textMask'
+  for (let i = 0; i < textMasks.length; i++) {
+    textMasks[i].addEventListener('click', function revealParagraph() {
+      this.classList.toggle('active'); // 'this' se refere ao elemento atual em que o evento ocorreu
     });
   }
-
-  
-  
-
- 
-
-
