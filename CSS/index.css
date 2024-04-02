@@ -475,7 +475,7 @@ header .felipeWebDev a{
     width: 100%;
     color: var(--white);
     z-index: 1;
-    
+    font-size: smaller;
 }
 
 .copyright a{
