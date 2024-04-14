@@ -44,3 +44,19 @@ toggleWrapper.addEventListener('change', () => {
       this.classList.toggle('active'); // 'this' se refere ao elemento atual em que o evento ocorreu
     });
   }
+
+ 
+    document.querySelectorAll('.mouseAnimation').forEach(item => {
+      const image = item.querySelector('img');
+      const text = item.querySelector('.carousel-caption .projectText');
+  
+      item.addEventListener('mouseenter', () => {
+          image.style.filter = 'blur(7px) brightness(0.7)'; 
+          text.classList.add('textHover'); 
+      });
+  
+      item.addEventListener('mouseleave', () => {
+          image.style.filter = 'none'; 
+          text.classList.remove('textHover'); 
+      });
+    });
