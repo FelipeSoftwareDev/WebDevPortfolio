@@ -1057,7 +1057,7 @@
       font-size: 1.7rem;
     }
 
-    .skillName .softSkills{
+    .skillName.softSkills{
         margin-left: 7.3rem !important;
         margin-top: 3rem;
     }
