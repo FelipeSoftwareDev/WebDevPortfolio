@@ -41,9 +41,16 @@ header nav a{
     margin-right: .3rem; 
     padding-top: 0.3rem !important;
     padding-bottom: 0.3rem !important;
+    transition: 0.5s ease;
 }
 
-
+header nav a:hover{
+    color: var(--mGray);
+    text-decoration: underline 2px !important;
+    border-radius: 10px;
+    border: solid 0.8px white;
+    padding: .5rem;
+}
 
 
 
