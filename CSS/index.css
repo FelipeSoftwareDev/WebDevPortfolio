@@ -16,6 +16,30 @@
     font-family: "Inter", sans-serif;
 }
 
+.hidden{
+    opacity: 0;
+    filter: blur(6px);
+    transition: 1s ease;
+    transform: translateX(-100%);
+}
+
+.reveal{
+    opacity: 1;
+    filter: blur(0);
+    transition: 1s ease;
+    transform: translateX(0);
+}
+
+.technologiesImg :nth-child(2){
+    transition-delay: 400ms;
+}
+.technologiesImg :nth-child(3){
+    transition-delay: 700ms;
+}
+.technologiesImg :nth-child(4){
+    transition-delay: 1s;
+}
+
 .content{
     background-color: var(--dGray);
     color:var(--dYellow);
@@ -23,6 +47,7 @@
     max-width: 100%;
     transition: background 0.4s linear
 }
+
 h2{
     font-size: .65rem;
 }
