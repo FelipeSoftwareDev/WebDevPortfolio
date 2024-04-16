@@ -996,12 +996,12 @@
     }
 
     .technologies {
-      margin-left: 4rem;
+      margin-left: 0;
       margin-right: 0;
     }
 
     .technologiesImg {
-      margin-left: 15rem !important;
+      margin-left: 16rem !important;
     }
 
     .technologiesText h2 {
@@ -1014,8 +1014,20 @@
     .technologiesText {
       width: 20rem;
       margin-right: 5rem;
-      margin-left: -0;
+      margin-left: -7.5rem;
     }
+
+    .techLogo {
+      margin-left: .8rem;
+  }
+
+    .cssLogo {
+      margin-left: .9rem;
+  }
+
+    .bootstrapLogo {
+    margin-left: 1.9rem;
+}
 
     .projects {
       margin-left: 25.78rem;
