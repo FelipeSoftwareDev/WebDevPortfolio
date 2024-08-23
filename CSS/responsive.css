@@ -1,4 +1,117 @@
-@media screen and (max-width:392px ){
+@media (min-width:325px){
+  .descriptionText {
+    margin-left: 2rem;
+    margin-right: 9.8rem;
+}
+
+header .felipeWebDev a {
+  font-size: .7rem;
+}
+
+.technologiesText {
+  width: 15rem;
+  margin-right: 0;
+}
+
+.technologies {
+  margin-left: 2.5rem;
+  margin-right: 1rem;
+}
+
+
+
+
+.skills {
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.skill {
+  height: 9rem;
+}
+
+.whoAmI {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+
+}
+
+@media (min-width:369px){
+  .blur {
+    top: -4rem;
+    margin-left: 15rem;
+    bottom: 3.7rem;
+}
+  
+    .light .blurLight{
+      top: -4rem;
+      margin-left: 15rem;
+      bottom: 3.7rem;
+      }
+  
+      .button1 {
+        top: .5rem;
+        margin-left: 15rem;
+    }
+
+    .descriptionText {
+      margin-left: 3rem;
+      margin-right: 11rem;
+  }
+
+  .technologies{ 
+    margin-left: 2rem;
+    margin-right: 1rem;
+  }
+
+  .skills {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .whiteCircle{
+    margin-left: 1rem;
+  }
+
+  .svg1{
+    left: 1.23rem;
+  }
+
+  .svg2{
+    left: 1.35rem;
+  }
+
+  .svg3{
+    left: 1.38rem;
+  }
+
+  .skillName {
+    margin-left: .5rem;
+  }
+
+  .skillName.softSkills{
+    margin-left: .8rem;
+  }
+
+  .skillName.languages{
+    margin-left: 1rem;
+  }
+
+  .skill{
+    height: 9.5rem;
+  }
+
+  .whoAmI {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+}
+
+@media screen and (min-width:400px ){
   header nav a{
     font-size: .5rem;
   }
