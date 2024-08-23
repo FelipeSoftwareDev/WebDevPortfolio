@@ -60,7 +60,7 @@ header .felipeWebDev a {
   }
 
   .technologies{ 
-    margin-left: 2rem;
+    margin-left: 2.5rem;
     margin-right: 1rem;
   }
 
@@ -109,7 +109,7 @@ header .felipeWebDev a {
 
 }
 
-@media screen and (min-width:400px ){
+@media screen and (min-width:398px ){
   header nav a{
     font-size: .6rem;
   }
@@ -146,10 +146,10 @@ header .felipeWebDev a {
     margin-top: 0;
   }
 
-  .technologies{ 
-    margin-left: 2rem;
+  .technologies {
+    margin-left: 3rem;
     margin-right: 1rem;
-  }
+}
 
   .skills {
     margin-top: 2rem;
