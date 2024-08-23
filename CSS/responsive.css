@@ -19,8 +19,6 @@ header .felipeWebDev a {
 }
 
 
-
-
 .skills {
   margin-top: 2rem;
   margin-left: 1.5rem;
@@ -113,7 +111,7 @@ header .felipeWebDev a {
 
 @media screen and (min-width:400px ){
   header nav a{
-    font-size: .5rem;
+    font-size: .6rem;
   }
 
   .themeChanger p {
@@ -126,10 +124,10 @@ header .felipeWebDev a {
   }
 
   .blur {
-  margin-top: 2rem;
-  margin-left: 4rem;
-  bottom: 3.7rem;
-  }
+    margin-top: 1.5rem;
+    margin-left: 18rem;
+    bottom: 3.7rem;
+}
 
   .light .blurLight{
     margin-top: 2rem;
@@ -137,15 +135,15 @@ header .felipeWebDev a {
     bottom: 3.7rem;
     }
 
-   .button1{
-    top: 0rem;
-    margin-left: 4rem;
-   } 
+    .button1 {
+      top: 0rem;
+      margin-left: 18rem;
+  }
 
    .descriptionText {
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 9rem;
+    margin-left: 3rem;
+    margin-right: 12rem;
+    margin-top: 0;
   }
 
   .technologies{ 
