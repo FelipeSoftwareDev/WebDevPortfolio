@@ -21,8 +21,7 @@ header .felipeWebDev a {
 
 .skills {
   margin-top: 2rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+
 }
 .skill {
   height: 9rem;
@@ -43,13 +42,13 @@ header .felipeWebDev a {
     bottom: 3.7rem;
 }
   
-    .light .blurLight{
+.light .blurLight{
       top: -4rem;
-      margin-left: 15rem;
+      margin-left: 15rem !important;
       bottom: 3.7rem;
       }
   
-      .button1 {
+.button1 {
         top: .5rem;
         margin-left: 15rem;
     }
@@ -66,8 +65,7 @@ header .felipeWebDev a {
 
   .skills {
     margin-top: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+
   }
 
   .whiteCircle{
@@ -86,17 +84,7 @@ header .felipeWebDev a {
     left: 1.38rem;
   }
 
-  .skillName {
-    margin-left: .5rem;
-  }
 
-  .skillName.softSkills{
-    margin-left: .8rem;
-  }
-
-  .skillName.languages{
-    margin-left: 1rem;
-  }
 
   .skill{
     height: 9.5rem;
@@ -131,7 +119,7 @@ header .felipeWebDev a {
 
   .light .blurLight{
     margin-top: 1.5rem;
-    margin-left: 18rem;
+    margin-left: 18rem !important;
     bottom: 3.7rem;
     }
 
@@ -153,8 +141,6 @@ header .felipeWebDev a {
 
   .skills {
     margin-top: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
   }
 
   .whiteCircle{
@@ -173,17 +159,6 @@ header .felipeWebDev a {
     left: 1.38rem;
   }
 
-  .skillName {
-    margin-left: .5rem;
-  }
-
-  .skillName.softSkills{
-    margin-left: .8rem;
-  }
-
-  .skillName.languages{
-    margin-left: 1rem;
-  }
 
   .skill{
     height: 9.5rem;
@@ -294,8 +269,7 @@ header .felipeWebDev a {
 
     .skills{
         margin-top: 8rem;
-        margin-left: 4.2rem;
-        margin-right: 4.2rem
+
     }
 
     .skill{
@@ -320,9 +294,7 @@ header .felipeWebDev a {
     }
 
     .skillName{
-        margin-left: 1.5rem;
         font-size: .7rem;
-
     }
 
     .skillDescription{
@@ -331,13 +303,9 @@ header .felipeWebDev a {
         font-size: .59rem;
     }
 
-    .softSkills{
-        margin-left: 2rem;
-    }
 
-    .languages{
-        margin-left: 2.4rem;
-    }
+
+
 
     .whoAmI{
         margin-left: 7rem;
@@ -431,18 +399,14 @@ header .felipeWebDev a {
         width: 2rem !important;
     }
 
-    .skills{
-        margin-left: 5rem !important;
-    }
+
     .skill{
         margin-left: 3rem !important;
         margin-right: 2rem;
         width: 8.5rem;
         height: 10.5rem;
     }
-    .languages p{
-        margin-left: 2rem !important;
-    }
+
 
     .textMask{
         left: -1.8rem;
@@ -503,11 +467,11 @@ header .felipeWebDev a {
 
     .blur{
         margin-left: 23rem;
-        margin-top: 5rem;
+        margin-top: 3rem;
     }
     .light .blurLight{
         margin-left: 23rem !important;
-        margin-top: 5rem !important;        
+        margin-top: 3rem !important;        
     }
 
     header .felipeWebDev a{
@@ -523,6 +487,11 @@ header .felipeWebDev a {
         margin-right: -.8rem;
     }
 
+    .technologies {
+      margin-left: 0;
+      margin-top: 10rem !important;
+  }
+
     .carousel-control-next-icon{
         right: 10rem !important;
     }
@@ -532,9 +501,7 @@ header .felipeWebDev a {
         margin-left: 12.5rem;
     }
 
-    .skills{
-        margin-left: 6.5rem !important;
-    }
+
 
     .skill{
         width: 10.5rem;
@@ -542,21 +509,9 @@ header .felipeWebDev a {
     }
 
     .skillName{
-        margin-left: 2rem;
         font-size: 1rem;
     }
 
-    .softSkills{
-        margin-left: 2.5rem;
-    }
-
-    .languages{
-        margin-left: 2.5rem !important;
-    }
-
-    .skillName.languages{
-        margin-left: 3rem !important;
-    }
 
     .whiteCircle{
         margin-left: 3.85rem !important;
@@ -681,7 +636,7 @@ header .felipeWebDev a {
 
       .button1 {
         margin-left: 30rem;
-        margin-top: 3rem;
+        margin-top: 6.5rem;
         font-size: .8rem;
         padding: 2.4rem 1rem;
       }
@@ -777,16 +732,8 @@ header .felipeWebDev a {
 
       .skillName{
         font-size: 1.15rem;
-        margin-left: 2.5rem;
       }
 
-      .skillName.languages {
-        margin-left: 3.8rem !important;
-      }
-
-      .softSkills {
-        margin-left: 3rem;
-      }
 
 
       .skillDescription {
@@ -881,6 +828,7 @@ header .felipeWebDev a {
         margin-left: 35rem;
         font-size: 1rem;
         padding: 2.8rem 1rem;
+        margin-top: 7rem;
       }
 
       .blur {
@@ -974,17 +922,17 @@ header .felipeWebDev a {
       }
 
       .skillName{
-        margin-left: 4rem !important;
+ 
         font-size: 1.35rem;
       }
 
       .softSkills {
-        margin-left: 4.8rem !important;
+    
         margin-top: 1.5rem;
       }
 
       .skillName.languages {
-        margin-left: 5.5rem !important;
+       
         margin-top: 1.5rem;
       }
 
@@ -1047,10 +995,6 @@ header .felipeWebDev a {
       margin-left: 36.3rem !important;
     }
 
-
-    .skills {
-      margin-left: 9.3rem !important;
-    }
 
     .whoAmI {
       margin-left: 10rem;
@@ -1181,12 +1125,12 @@ header .felipeWebDev a {
     }
 
     .skillName.softSkills{
-        margin-left: 7.3rem !important;
+        
         margin-top: 3rem;
     }
 
     .skillName.languages {
-      margin-left: 8rem !important;
+     
       margin-top: 3rem;
     }
 
@@ -1242,5 +1186,91 @@ header .felipeWebDev a {
       max-width: 30rem;
       margin-left: 27rem;
     }
+
+  }
+
+
+  @media screen and (min-width: 2450px){
+
+    header nav a {
+      font-size: 1.7rem;
+      margin-left: 10rem;
+  }
+
+  header .felipeWebDev a {
+    margin-left: 2rem;
+    font-size: 2.8rem !important;
+  }
+
+  header .felipeWebDev a {
+    margin-right: 25rem;
+}
+
+    .profile {
+      margin-left: 15.3rem;
+      width: 15rem;
+  }
+
+  .logo {
+    width: 24.5rem !important;
+  }
+
+  .switcher {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .slider {
+    width: 2.7rem;
+    height: 1.4rem;
+  }
+
+  .themeChanger p {
+    font-size: 1.2rem;
+}
+
+    .descriptionText {
+      margin-left: 26rem;
+      margin-right: 102rem;
+      font-size: 1.8rem;
+  }
+
+  .button1{
+    margin-top: 5rem;
+  }
+
+
+  .blur {
+    top: -8rem;
+  }
+
+  .light .blurLight {
+    top: -6rem;
+  }
+
+  .technologiesText {
+    width: 20rem;
+    margin-right: 22rem;
+  }
+
+    .technologiesText h2 {
+      font-size: 2.1rem !important;
+  }
+  .technologiesText p {
+    font-size: 1.7rem !important;
+}
+
+.techLogo {
+  width: 6rem;
+}
+
+.cssLogo {
+  width: 8rem;
+}
+.bootstrapLogo {
+  width: 6rem;
+}
+
+
 
   }
