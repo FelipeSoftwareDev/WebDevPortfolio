@@ -7,12 +7,12 @@ const Contact = () => {
             <GlassCard>
                 <div className="contact-content">
                     <div className="contact-info">
-                        <h2 className="section-title">Get In Touch</h2>
+                        <h2 className="section-title">Entre em Contato</h2>
                         <p className="contact-description">
-                            I'm currently looking for new opportunities. Whether you have a question or just want to say hi,
-                            I'll try my best to get back to you!
+                            Estou sempre aberto a novas oportunidades. Se você tem uma pergunta ou só quer trocar uma ideia,
+                            farei o possível para responder!
                         </p>
-                        <a href="mailto:contact@felipe.dev" className="btn-primary contact-btn">Say Hello</a>
+                        <a href="mailto:contact@felipe.dev" className="btn-primary contact-btn">Fale Comigo</a>
                     </div>
                     <div className="contact-socials">
                         {/* Social placeholders - functionality is the focus */}
